@@ -1,0 +1,112 @@
+STATION    = "Station_TEST"
+DIRE_LOCAL = "/Users/bcasas/BEN/Scripts/Desarollo/"                                             #Debe terminar en /
+PORTAL     = "130.206.32.68"  "portal.socib.es"                                           #
+PUERTO     = "22"                                                        #
+USUARIO    = "mooring"                                                    #
+DIRE_DEST  = "/home/mooring/RTTEST"                                       #
+MAIL_FROM  = "axys@socib.es"                                             #
+MAIL_PASS  = "umoctvthfxhiyqda"                                          #
+MAIL_DEST  = "bcasas@socib.es"                                           #
+MONITOR    = "0"                                                         #Indica si se quiere monitorizar los procesos en ejecución
+#INSTRUMENTOS###########################################################################################################
+NUM_INSTRUMENTOS = "1"
+#INSTRUMENTO 1: SENSOR TEM/HUM - WEB
+INSTRUMENTO    = "TEMP_GRJ"
+INSTR_TIPO     = "URL_TH"
+INSTR_ID       = "MCS-DTH22001"
+PARAMETRO_1    = "30"                                                    #INTERVALO de muestreo en segundos
+PARAMETRO_2    = "http://192.168.31.172"                                 #URL#
+PARAMETRO_3    = "-"                                                     #DISP
+PARAMETRO_4    = "-"                                                     #DISP
+LINEAS         = "20"
+#
+#INSTRUMENTO 2: SENSOR TEM/HUM
+INSTRUMENTO    = "TEMP_BUH"
+INSTR_TIPO     = "DTH22_adafruit"
+INSTR_ID       = "MCS-DTH22002"
+PARAMETRO_1    = "10"                 #INTERVALO de muestreo en segundos
+PARAMETRO_2    = "10"                 #PIN_DAT_GPIO#
+PARAMETRO_3    = "25"                 #PIN_GRD 
+PARAMETRO_4    = "17"                 #PIN_PWR 
+LINEAS         = "20"
+###########################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#INSTRUMENTO X: SENSOR TEM/HUM
+INSTRUMENTO    = "DTH22"
+INSTR_TIPO     = "DTH22_adafruit"
+INSTR_ID       = "MCS-DTH22002"
+PARAMETRO_1    = "10"                 #INTERVALO de muestreo en segundos
+PARAMETRO_2    = "4"                  #PIN_DAT_GPIO# PinRPi 7
+PARAMETRO_3    = "9"                  #PIN_GRD       PinRPi 9
+PARAMETRO_4    = "1"                  #PIN_PWR       PinRPi 1
+LINEAS         = "20"
+#INSTRUMENTO X: METEO
+INSTRUMENTO    = "METEO"
+INSTR_TIPO     = "AADI"
+INSTR_ID       = "CON-MET001"
+PARAMETRO_1    = "/dev/ttyUSB0"      #Puerto Serie
+PARAMETRO_2    = "9600"              #SERIAL_Baudrate
+PARAMETRO_3    = "8"                 #SERIAL_BitsPerSecond 
+PARAMETRO_4    = "N"                 #SERIAL_Parity 
+LINEAS         = "25"
+#INSTRUMENTO X: SENSOR TEM_Sumergible
+INSTRUMENTO    = "SUB_TEMP"
+INSTR_TIPO     = "DS18B20"
+INSTR_ID       = "IME-DS18B20001"
+PARAMETRO_1    = "10.0"               #INTERVALO de muestreo en segundos
+PARAMETRO_2    = "4"                  #PIN_DAT_GPIO#
+PARAMETRO_3    = "6"                  #PIN_GRD 
+PARAMETRO_4    = "0"                  #ID del Sensor
+LINEAS         = "20"
+#INSTRUMENTO X: PiCAM_low
+INSTRUMENTO    = "PiCAM"
+INSTR_TIPO     = "PiCAM"
+INSTR_ID       = "SCB-PiCAM001"
+PARAMETRO_1    = "60.0"               #INTERVALO de muestreo en segundos
+PARAMETRO_2    = "FOTO"               #TIPO - FOTO | VIDEO | TIMELAPSE
+PARAMETRO_3    = "100"                #PARA FOTO: QUALITY    | PARA VIDEO: DURACION EN ms | PARA TIMELAPSE: DURACION DEL TL EN ms
+PARAMETRO_4    = ""                   #PARA FOTO: DISPONIBLE | PARA VIDEO: DISPONIBLE     | PARA TIMELAPSE: INTERVALO DE DISPARO EN ms
+LINEAS         = "2"                  #BORRAR FICHEROS ANTERIORES A n DIAS
+#INSTRUMENTO X: SENSOR TEM/HUM
+INSTRUMENTO    = "DTH22"
+INSTR_TIPO     = "DTH22_adafruit"
+INSTR_ID       = "MCS-DTH22002"
+PARAMETRO_1    = "10"                 #INTERVALO de muestreo en segundos
+PARAMETRO_2    = "10"                 #PIN_DAT_GPIO#
+PARAMETRO_3    = "25"                 #PIN_GRD 
+PARAMETRO_4    = "17"                 #PIN_PWR 
+LINEAS         = "20"
+#INSTRUMENTO X: WebCam
+INSTRUMENTO    = "CAM1"
+INSTR_TIPO     = "CAM"
+INSTR_ID       = "IME-CAM001"
+PARAMETRO_1    = "192.168.31.70:88"  #CONEXION
+PARAMETRO_2    = " "                 #No utilizado en este tipo 
+PARAMETRO_3    = " "                 #No utilizado en este tipo 
+PARAMETRO_4    = " "                 #No utilizado en este tipo
+LINEAS         = "2"                 #BORRAR FICHEROS ANTERIORES A n DIAS
+###########################################################

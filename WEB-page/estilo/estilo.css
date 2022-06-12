@@ -1,0 +1,282 @@
+body {
+    background-color: rgb(23, 37, 55);
+    margin: 0;
+    outline: none;
+    font-style: normal;
+    text-decoration: none;
+    text-align: justify;
+    color: #434245;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+ }
+a{
+    font-style: normal;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    color:lightslategrey;
+    text-decoration: none;
+}
+a:hover{
+    font-style:oblique;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+}
+h2{
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: small;
+    padding-left: 7px;
+}
+img.semaforo{
+    vertical-align: middle;
+}
+
+img.speedtest{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+img.figura{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%;
+    padding-bottom: 20px;
+}
+
+#main-header{
+    height: 100px;
+    width: 100%;
+    left: 0;
+    top: 0;
+} 
+#logo-header{
+    float: left;
+	padding: 20px 0 0 20px;
+	text-decoration: none;
+}
+#main-header .page-name {
+    float: left;
+    display: block;
+    padding: 30px 0px 0px 25px;	   
+    display:inline-block
+}
+
+
+
+#main-header .name {
+    color: seashell;
+    font-size:x-large;
+	text-decoration: none;
+
+}
+#main-header .title {
+    color:lightslategrey;
+    font-size: small;
+	text-decoration: none;
+
+}
+#main-header .page-reloj {
+    font-family: monaco, Consolas, "Lucida Console";
+    color: lightgrey;
+    float: right;
+    font-size: 18px;
+	text-decoration: none;
+    padding-top: 25px;
+    padding-right: 15px;
+}
+
+#datos-rpi {
+    float:right;
+    padding: 0px 10px 5px 0px;
+    margin-top: 0px;
+    font-size: 15px;
+    color: rgb(161, 175, 185);
+}
+
+#UTC_za00{
+    
+}
+
+
+#contenedor_1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: white;
+}
+
+#contenedor_1_izda {
+    width: 20%;
+    height: 300px;
+}
+
+#update{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+}
+#speedtest{
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#speed_date{
+    font-size: 13px;
+    text-align: center;
+    padding-top: 0px;
+}
+#speed_file{
+    font-size: 13px;
+    text-align: left;
+    padding-top: 2px;
+    padding-left: 10%;
+}
+
+#contenedor_1_dcha {
+    width: 80%;
+}
+
+#contenido{
+    padding-top: 1%;
+    padding-right: 3%;
+    padding-left: 4%;
+    padding-bottom: 2%;
+    line-height: 1.6em;
+}
+
+#contenedor_SAI{
+    padding: 5px;
+    height: 700px;
+    max-width:95%;
+}
+
+.about{
+    color: #053350;
+    font-size: 2.0rem;
+    margin-bottom: 5px;
+}
+
+img.about{
+	float: right;
+	padding-left: 20px;
+    padding-top: 30px;
+	border-radius: 50%;
+	width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+img.images{
+    
+    height: 80px;
+    color: lawngreen;
+}
+
+#menu{
+    padding-right: 10%;
+    text-align: right;
+    list-style: none;
+    color: rgb(23, 37, 55);
+    line-height: 40px;
+    text-decoration:none;
+	font-weight: normal;
+	font-size: 16pt;
+    white-space: nowrap;
+}
+#hv_menu{
+    color:lightslategrey;
+    text-decoration: none;
+}
+#hv_menu:hover{
+    color:rgb(23, 37, 55);
+    text-decoration: none;
+}
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: xx-small;
+    color:lightslategrey;
+}
+
+
+#hv_footer{
+    color:lightslategrey;
+    text-decoration: none;
+}
+#hv_footer:hover{
+    color: seashell;
+    text-decoration: none;
+}
+
+
+.mto {
+    color: rgb(23, 37, 55);
+    background-color: white;
+    text-align: center;
+    font-size: medium;
+    padding-top: 5px;
+    border-style: solid;
+    border-right: brown;
+    border-left: crimson;
+    padding-bottom: 10px;;
+    padding-top: 10px;
+    
+}
+.versiones {
+    color: lightslategrey;
+    text-align: center;
+    font-size: small;
+}
+
+
+
+
+.instrumento{
+    background:#F000;
+    padding:0px;
+    margin:0px;
+    margin-bottom: 5px;
+    border:1px;
+    border-style: solid;
+}
+
+.ult{
+    padding-left:15px;
+    font-size: small;
+}
+.caja-datos{
+    padding-bottom:10px;
+    font-family: monospace;
+    font-size: 14px; 
+    padding-left:10px;
+    overflow: auto;
+    white-space: nowrap;
+    color:#000;
+    line-height: 20px;
+    }
+
+.instrumento-info {
+    text-align:right;
+    margin-right:2%;
+    margin-top: 0px;
+    padding:0px;
+    color:#000;
+    font-size: small;
+}
+.fichero-datos {
+    text-align:left;
+    margin-left:5%;
+    margin-top: -32px;
+    padding:0px;
+    color:#000;
+    padding-bottom:5px;
+    font-size: small;
+}

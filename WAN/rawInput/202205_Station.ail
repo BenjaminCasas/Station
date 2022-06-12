@@ -1,0 +1,3 @@
+
+
+--progress-update-interval=# Progress update interval (100-1000 milliseconds) | -b Shortcut for [-u auto-binary-bits], --selection-details Show server selection details, -v Logging verbosity. Specify multiple times for higher verbosity
