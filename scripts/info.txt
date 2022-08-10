@@ -5,7 +5,7 @@ PUERTO     = "22"                                                        #
 USUARIO    = "mooring"                                                    #
 DIRE_DEST  = "/home/mooring/RTTEST"                                       #
 MAIL_FROM  = "axys@socib.es"                                             #
-MAIL_PASS  = "umoctvthfxhiyqda"                                          #
+MAIL_PASS  = ""                                          #
 MAIL_DEST  = "bcasas@socib.es"                                           #
 MONITOR    = "0"                                                         #Indica si se quiere monitorizar los procesos en ejecución
 #INSTRUMENTOS###########################################################################################################
